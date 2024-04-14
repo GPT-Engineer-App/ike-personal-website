@@ -12,6 +12,9 @@ const Navigation = () => {
         <Link as={RouterLink} to="/quotes">
           Quotes
         </Link>
+        <Link as={RouterLink} to="/more-quotes">
+          More Quotes
+        </Link>
       </HStack>
     </Box>
   );
